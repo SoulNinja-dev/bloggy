@@ -12,15 +12,13 @@
                 <%= blog.title %>
             </h2>
             <div class="content">
-                <p>
-                    <%= blog.body %>
-                </p>
-                </div>
+                <%= blog.body %>
+            </div>
             <h5 style="font-size:large; font-weight: normal;">
                 Blog written by: <%= blog.author.name %>, <%= blog.author.email %>
             </h5>
             <a class="delete" data-doc="<%= blog._id %>">Delete Blog</a>
-            </div>
+        </div>
 
         <%- include('../partials/footer.ejs') %>
 

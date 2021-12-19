@@ -64,5 +64,5 @@ module.exports = {
 	blog_details,
 	blog_create,
 	blog_post,
-	blog_delete
-}
+	blog_delete,
+};
